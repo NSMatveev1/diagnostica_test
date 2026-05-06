@@ -41,14 +41,14 @@
       "action": "resolve"
     },
     "end_sim_promo": {
-      "text": "Инструкцию можно скачать по ссылке",
+      "text": "Инструкцию для консультации клиента можно скачать по ссылке",
+      "type": "solution",
       "links": [
         {
         "url": "https://disk.yandex.ru/i/pNRnvSyNkC7TuQ",
         "label": "Инструкция для клиентов"
         }
       ],
-      "type": "solution",
       "action": "resolve"
     },
     "end_sim_jur": {
