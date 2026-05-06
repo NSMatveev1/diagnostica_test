@@ -93,19 +93,13 @@
     },
     "q_sim_operator": {
       "text": "Необходимо обратиться к оператору",
-      "type": "question",
-      "answers": [
-        {"text": "", "next": ""},
-        {"text": "", "next": ""}
-      ]
+      "type": "solution",
+      "action": "resolve"
     },
     "q_sim_register_form": {
       "text": "Рекомендуем переоформить сим на себя через форму ",
-      "type": "question",
-      "answers": [
-        {"text": "", "next": ""},
-        {"text": "", "next": ""}
-      ]
+      "type": "solution",
+      "action": "resolve"
     },
     "end_sim_diagnostic": {
       "text": "Рекомендуем обратиться к дилеру для диагностики",
