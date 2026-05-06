@@ -50,7 +50,14 @@
       "type": "question",
       "answers": [
         {"text": "Физическое лицо", "next": "end_goto_dealer_no_rights"},
-        {"text": "Юридическое лицо", "next": "end_escalate_l2"}
+        {"text": "Юридическое лицо", "next": "q_owner_boss"}
+      ]
+    },
+    "q_owner_boss":{
+      "text": "Необходимо обратиться к руководству вашей организации, чтобы вас добавили как водителя",
+      "type": "question",
+      "answers": [
+        {"text": "Звонит руководитель", "next": "end_escalate_l2"}
       ]
     },
     "q_app_status": {
