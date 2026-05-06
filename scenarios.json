@@ -116,6 +116,7 @@
         "url": "https://voyah.su/pereoformlenie-sim-kart",
         "label": "Форма переоформления SIM"
         }
+      ],
       "action": "resolve"
     },
     "end_sim_diagnostic": {
