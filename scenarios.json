@@ -53,7 +53,7 @@
         {"text": "Юридическое лицо", "next": "q_owner_boss"}
       ]
     },
-      "q_owner_boss_instruction":{
+    "end_owner_boss_instruction": {
       "text": "Необходимо отправить на почту matveev@evia.ru сканы документов ДКП, СТС, контактный номер телефона для привязки аккаунта",
       "type": "solution",
       "action": "resolve"
