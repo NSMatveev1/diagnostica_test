@@ -41,7 +41,13 @@
       "action": "resolve"
     },
     "end_sim_promo": {
-      "text": "Тут будет инструкция по активации промо-кода",
+      "text": "Инструкцию можно скачать по ссылке",
+      "links": [
+        {
+        "url": "https://disk.yandex.ru/i/pNRnvSyNkC7TuQ",
+        "label": "Инструкция для клиентов"
+        }
+      ],
       "type": "solution",
       "action": "resolve"
     },
