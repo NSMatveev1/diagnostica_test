@@ -24,11 +24,55 @@
       "answers": [
         {"text": "Не работает интернет в мультимедиа Voyah", "next": "q_sim_no_internet"},
         {"text": "Переоформление сим на физ лицо", "next": "q_sim_fiz"},
-        {"text": "Переоформление сим на юр лицо", "next": "q_sim_jur"},
-        {"text": "Активация промо-кода", "next": "q_sim_promo"},
-        {"text": "Узнать номер сим в мультимедия", "next": "q_sim_number"},
-        {"text": "Сим-карта МТС в телематике", "next": "q_sim_mts"}
+        {"text": "Переоформление сим на юр лицо", "next": "end_sim_jur"},
+        {"text": "Активация промо-кода", "next": "end_sim_promo"},
+        {"text": "Узнать номер сим в мультимедия", "next": "end_sim_number"},
+        {"text": "Сим-карта МТС в телематике", "next": "end_sim_mts"}
       ]
+    },
+    "end_sim_mts": {
+      "text": "Тут будет что-то типа инструкции",
+      "type": "solution",
+      "action": "resolve"
+    },
+    "end_sim_number": {
+      "text": "Тут будет что-то типа инструкции",
+      "type": "solution",
+      "action": "resolve"
+    },
+    "end_sim_promo": {
+      "text": "Тут будет инструкция по активации промо-кода",
+      "type": "solution",
+      "action": "resolve"
+    },
+    "end_sim_jur": {
+      "text": "На текущий момент переоформление выполняется в ручном режиме. Необходимо отправить заявку на почту khozhin@evia.ru/CR@df-trading.ru",
+      "type": "question",
+      "type": "solution",
+      "action": "resolve"
+    },
+    "end_sim_no_answer": {
+      "text": "Рекомендуем обратиться на горячую линию оператора, чтобы узнать статус заявления/подать заявление повторно.",
+      "type": "solution",
+      "action": "resolve"
+    },
+    "end_sim_no_accept": {
+      "text": "Обратиться в другой офис оператора. Сообщить сотруднику офиса, что на каждом номере есть памятка и инструкции",
+      "type": "solution",
+      "action": "resolve"
+    },
+    "q_sim_fiz": {
+      "text": "Номер можно переоформить на сайте через форму",
+      "type": "question",
+      "answers": [
+        {"text": "Нет ответа по заявлению", "next": "end_sim_no_answer"},
+        {"text": "Сотрудник офиса Мегафон не принимает заявление", "next": "end_sim_no_accept"}
+      ]
+    },
+    "end_sim_instruction": {
+      "text": "Тут будет ссылка на пдф ",
+      "type": "solution",
+      "action": "resolve"
     },
     "q_sim_no_internet": {
       "text": "Не работает интернет",
