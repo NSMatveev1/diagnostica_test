@@ -42,6 +42,12 @@
     },
     "end_sim_promo": {
       "text": "Тут будет инструкция по активации промо-кода",
+      "links": [
+        {
+        "url": "https://voyah.su/pereoformlenie-sim-kart",
+        "label": "Форма переоформления SIM"
+        }
+      ],
       "type": "solution",
       "action": "resolve"
     },
