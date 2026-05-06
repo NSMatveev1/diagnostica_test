@@ -62,7 +62,7 @@
       "text": "Необходимо обратиться к руководству вашей организации, чтобы вас добавили как водителя",
       "type": "question",
       "answers": [
-        {"text": "Звонит руководитель", "next": "q_owner_boss_instruction"}
+        {"text": "Звонит руководитель", "next": "end_owner_boss_instruction"}
       ]
     },
     "q_app_status": {
