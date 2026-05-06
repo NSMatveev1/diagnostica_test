@@ -53,11 +53,15 @@
         {"text": "Юридическое лицо", "next": "q_owner_boss"}
       ]
     },
+      "q_owner_boss_instruction":{
+      "text": "Необходимо отправить на почту matveev@evia.ru сканы документов ДКП, СТС, контактный номер телефона для привязки аккаунта",
+      "type": "question"
+    },
     "q_owner_boss":{
       "text": "Необходимо обратиться к руководству вашей организации, чтобы вас добавили как водителя",
       "type": "question",
       "answers": [
-        {"text": "Звонит руководитель", "next": "end_escalate_l2"}
+        {"text": "Звонит руководитель", "next": "q_owner_boss_instruction"}
       ]
     },
     "q_app_status": {
