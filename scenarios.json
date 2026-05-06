@@ -9,7 +9,7 @@
       "type": "question",
       "answers": [
         {"text": "Не работают функции в приложении", "next": "q_check_basics_1"},
-        {"text": "Не обновляются данные телеметрии", "next": "q_check_basics_2"},
+        {"text": "Не обновляются/отображаются данные телеметрии", "next": "q_check_basics_2"},
         {"text": "Некорректная геолокация", "next": "end_escalate_l2"},
         {"text": "Проблема со входом в аккаунт", "next": "q_login_issue_type"},
         {"text": "Отопитель", "next": "q_heater_issue"},
@@ -62,7 +62,8 @@
       "text": "Необходимо обратиться к руководству вашей организации, чтобы вас добавили как водителя",
       "type": "question",
       "answers": [
-        {"text": "Звонит руководитель", "next": "end_owner_boss_instruction"}
+        {"text": "Звонит руководитель", "next": "end_owner_boss_instruction"},
+        {"text": "Второй владелец", "next": "end_owner_boss_instruction"}
       ]
     },
     "q_app_status": {
