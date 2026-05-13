@@ -100,6 +100,14 @@
         {"text": "Перестал работать/до этого работал", "next": "q_sim_register"}
       ]
     },
+    "q_sim_signal": {
+      "text": "Не отображается значек сигнала 4G/шкалы сети или перечеркнут/восклицательный знак?",
+      "type": "question",
+      "answers": [
+        {"text": "Да", "next": "q_sim_opertor"},
+        {"text": "Нет", "next": "q_sim_register_form"}
+      ]
+    },
     "q_sim_register": {
       "text": "Переоформляли ли на себя sim-карту?",
       "type": "question",
