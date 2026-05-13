@@ -290,7 +290,8 @@
       "text": "Уточните тип запроса:",
       "type": "question",
       "answers": [
-        {"text": "Другой запрос", "next": "end_escalate_l2"}
+        {"text": "Другой запрос", "next": "end_escalate_l2"},
+        {"text": "Некорректный цвет/модификация авто", "next": "end_escalate_l2"}
       ]
     },
 
