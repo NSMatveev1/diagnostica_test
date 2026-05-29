@@ -35,7 +35,7 @@
       "type": "input",
       "action": "check_vin",
       "answers": [
-        {"text": "Не удалось найти номер", "next": "end_escalate_l2"},
+        {"text": "Не удалось найти номер", "next": "end_escalate_l2"}
       ]
     },
     "end_sim_mts": {
